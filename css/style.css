@@ -5,6 +5,10 @@ body html {
 }
 .inline-b {
     display: inline-block;
+    font-size: 80px;
+    font-family: 'Gomorrah', sans-serif;
+    color: #000000bd;
+
 }
 .box {
     width: 480px;
@@ -15,17 +19,10 @@ body html {
     left: 33%;
     animation: box 11.0s;
 }
-h1 {
-    font-family: 'Gomorrah', sans-serif;
-    font-weight: bold;
-    font-size: 80px;
-    color: #000000bd;
+.wrapper {
     position: absolute;
     top: 40%;
     left: 37%;
-}
-.wrapper {
-    position: relative;
 }
 .c:hover {
     color:black;
