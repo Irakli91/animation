@@ -1,0 +1,155 @@
+body html {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.inline-b {
+    display: inline-block;
+}
+.box {
+    width: 480px;
+    height: 80px;
+    background: rgba(136, 131, 131, 0.356);
+    position: absolute;
+    top: 40%;
+    left: 33%;
+    animation: box 11.0s;
+}
+h1 {
+    font-family: 'Gomorrah', sans-serif;
+    font-weight: bold;
+    font-size: 80px;
+    color: #000000bd;
+    position: absolute;
+    top: 40%;
+    left: 37%;
+}
+.wrapper {
+    position: relative;
+}
+.c:hover {
+    color:black;
+}
+.c {
+    animation: c 10.0s ;
+    position: absolute;
+    top: 0%;
+    left: -50px;
+}
+.a:hover {
+    color:black;
+}
+.a {
+    animation: a 10.0s ;
+    position: absolute;
+    top: 0%;
+    left: 10px;
+}
+.m:hover {
+    color:black;
+}
+.m {
+    animation: m 10.0s ;
+    position: absolute;
+    top: 0%;
+    left: 80px;
+}
+.o:hover {
+    color:black;
+}
+.o {
+    animation: o 10.0s ;
+    position: absolute;
+    top: 0%;
+    left: 170px;
+}
+.r:hover {
+    color:black;
+}
+.r {
+    animation: r 10.0s ;
+    position: absolute;
+    top: 0%;
+    left: 240px;
+}
+.r-1:hover {
+    color:black;
+}
+.r-1 {
+    animation: r-1 10.0s ;
+    position: absolute;
+    top: 0%;
+    left: 300px;
+}
+.a-1:hover {
+    color:black;
+}
+.a-1 {
+    animation: a-1 10.0s ;
+    position: absolute;
+    top: 0%;
+    left: 360px;
+}
+@keyframes box {
+    0% {background: rgba(136, 131, 131, 0.356);}
+    30% {background: rgba(136, 131, 131, 0.233);}
+    60% {background: rgba(136, 131, 131, 0.151);}
+    90% {background: rgba(136, 131, 131, 0);}
+    100% {background: rgba(255, 0, 0, 0.308);}
+}
+@keyframes c {
+    10% {top: 60px;}
+    20% {left: 450px;}
+    30% {top: -70px;}
+    50% {top: -100px}
+    70% {top: -60px}
+    80% {top: 0px;}
+}
+@keyframes a {
+    10% {top: 60px;}
+    20% {left: -450px}
+    30% {top: 70px;}
+    50% {top: 100px}
+    70% {top: 60px}
+    80% {top: 0px;}
+}
+@keyframes m {
+    10% {top: 40px;}
+    20% {left: -250px}
+    30% {top: 70px;}
+    50% {top: -100px}
+    70% {top: 10px}
+    80% {top: 0px;}
+}
+@keyframes o {
+    10% {top: 80px;}
+    20% {left: 500px}
+    30% {top: 200px;}
+    50% {top: -100px}
+    70% {top: 50px}
+    80% {top: 0px;}
+}
+@keyframes r {
+    10% {top: -260px;}
+    20% {left: 400px}
+    30% {top: -20px;}
+    50% {top: 150px}
+    70% {top: 10px}
+    80% {top: 0px;}
+}
+@keyframes r-1 {
+    10% {top: 320px;}
+    20% {left: 286px}
+    30% {top: -210px;}
+    50% {top: 150px}
+    70% {top: 10px}
+    80% {top: 0px;}
+}
+@keyframes a-1 {
+    10% {top: 320px;}
+    20% {left: -500px}
+    30% {top: -100px;}
+    50% {top: -50px}
+    70% {top: 10px}
+    80% {top: 0px;}
+}

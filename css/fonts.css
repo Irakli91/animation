@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Gomorrah';
+    src: url('../fonts/Gomorrah.eot');
+    src: url('../fonts/Gomorrah.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Gomorrah.woff2') format('woff2'),
+        url('../fonts/Gomorrah.woff') format('woff'),
+        url('../fonts/Gomorrah.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
